@@ -1,67 +1,103 @@
-<!DOCTYPE html>
-
+<!doctype html>
 <html>
 <head>
-	<meta charset = "utf-8">
+<meta charset="utf-8">
+<meta charset = "utf-8">
+		<title>CV El Walid BOUDAHA</title> 
+		<link rel = "stylesheet" href = "cv.css"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script language="javascript" type="text/javascript">
+			function afficher(id_div) {
+				$("#"+id_div).toggle();
+  
+			}
+		</script>
+		<link rel="stylesheet" type="text/css" href="cv.css">
 </head>
 
-<body>
-<div class = "page">
-<div class = "section">
-	<h1> Ingénieur double compétences Automatique & Informatique </h1>
-	<h2>Etat civile</h2></div>
-	<div class = "section">
-  <ul>
-    <li>El Walid BOUDAHA</li>
-    <tr>39, rue Pre Gaudry </tr><br>
-    <tr>appartement 407-5</tr>
-    <tr>lyon,  69007</tr>
-    <li>tel: 0751208471</li>
-    <li>email: elwalid.boudaha@gmail.com</li>
-   </ul></div>
- <div class = "section">
- <h2>Formations</h2>
- <ul>
- <li><tr>
-    <td>2016-2017: </td>
-    <td>Master CCI à l'université lyon 1, lyon</td><br>
- </tr></li>
-	<li><tr><td>2015-2016: </td>
-	<td>Master en Automatique à INP ENSEEIHT, Toulouse</td> </tr>
- </tr></li>
- </ul></div>
-  <div class = "section">
- <h2>Experiences professionnelles</h2>
- <ul>
-      <li><tr>
-	 <td>Du mars au septembre 2016:</td>
-	 <td>stage chez liebherr aerospace toulouse</td> 
-	 </tr></li>
-	 <q> Développement d'un environnement de test automatisé</q><br>
-	 <li><tr>
-	 <td>Du féverier au mars 2016:</td>
-	 <td>stage chez LAAS-CNRS toulouse</td> 
-	 </tr></li>
-	 <q> Développement d'un ADAS sûr de fonctionnement sur ROS</q><br>
-     </ul>
-	   </div>
-	     <div class = "section">
-  <h2>Langues</h2>
-  <ul>
+<BODY>
+	<div class="tt-cv">
+		<div class="etat-civil">
+			<div id="info">
+				<p><strong>El Walid BOUDAHA<br/></strong> 39, rue Pre Gaudry</br>
+				appartement 407-5</br>
+				lyon,  69007</br>
+				tel: 0751208471</br>
+				email: elwalid.boudaha@gmail.com</p>
+</div>
+<div id="photo">
+<img src="maPhoto.jpg" height=120px; width=100px>
+</div>
+</div>
+<div><h1><center>Ingénieur double compétences Automatique & Informatique</center><h1></div>
+<div class="h2"><center>Formations et diplômes<button style="font-size: 50%;" onclick="afficher('section-1');">cacher</button><center></div>
 
- <li><tr>
-    <td>Français: </td>
-    <td>courant</td><br>
- </tr></li>
- <li><tr>
-    <td>Arabe: </td>
-    <td>courant</td><br>
- </tr></li>
- <li><tr>
-    <td>Anglais: </td>
-    <td>Technique</td><br>
- </tr></li>
- </div></div>
- </body>
- </html>
-  
+<div id="section-1">
+<div class="sec-g" id="pp"><p>2016-2017 : </p></br> <p>2015-2016 : </p>
+</div>
+<div class="sec-d" id="pn"><p> Master CCI à l'université Claude Bernard, lyon</p>
+<p>Master en Automatique à INP ENSEEIHT, Toulouse</p>
+</div>
+</div> 
+
+<div class="h2"><center>Experiences professionnelles<button style="font-size: 50%;" onclick="afficher('section-11');">cacher</button><center></div>
+<div id="section-11">
+<div class="sec-g" id="ep"><p>Du mars au septembre 2016: </p></br> <p>Du féverier au mars 2016: </p>
+</div>
+<div class="sec-d" id="en"><p> <p>stage chez liebherr aerospace toulouse</br>
+					Développement d'un environnement de test automatisé</span></p>
+					<p>stage chez LAAS-CNRS toulouse</br>
+					Développement d'un ADAS sûr de fonctionnement sur ROS</p>
+</div>
+</div> 
+
+<div class="h2"><center>Compétences informatique<button style="font-size: 50%;" onclick="afficher('section2');">cacher</button><center></div>
+<div id="section2">
+<div class="sec-top" >
+
+<ul>
+                    <li>Systèmes d'information (Merise, UML)
+					<li>Base de données (Oracle/SQL).
+					<li>Internet (http, xml)
+					<li> Image (VRML)
+					<li>Systèmes d'information Collaboratifs
+					<li> Introduction au Cloud Computing (IaaS, SaaS, PaaS), Virtualisation, Containers (Docker), OpenStack  
+					<li>Compétences SI pour la gestion
+					<li>sécurité des SI, ERP/SAP
+					<li>visualisation des informations
+					<li>Interface H/M
+					<li>entrepôt de données  
+</ul>
+<div class="ps"><center>Languages de programmation</center></div>
+<ul>
+				<li>C, C++, Java, Python,  Shell, MATLAB/ Simulink     
+				
+</ul>
+<div class="ps"><center>Systèmes d'exploitation</center></div>
+<ul>
+				<li>Windows, Unix (MacOS X, GNU/Linux Debian, Ubuntu)    
+				
+</ul>
+</div>
+		<div class="sec-bottom"> </div>
+</div>
+<div class="h2"><center>Langues<button style="font-size: 50%;" onclick="afficher('section3');">cacher</button><center></div>
+<div id="section3">
+<ul>
+	<li>Français : courant 
+    <li>Arabe : courant           
+    <li>Anglais : technique
+        </ul>
+	</div>
+	<div class="h2"><center>Centre d'intérêt<button style="font-size: 50%;" onclick="afficher('section4');">cacher</button><center></div>
+	<div id="section4">
+		<ul>
+				<li>Sports : Football, natation.
+                <li>Lecture des romans .
+                
+ 
+         </ul>          
+	</div>
+	</div>
+</BODY>
+</html>
